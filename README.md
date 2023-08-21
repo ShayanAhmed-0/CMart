@@ -2,41 +2,41 @@
 
 ## APIs End Points
 
-#USER
-##POST
+# USER
+## POST
 [SignIn](http://localhost:5000/api/users/signin)
 http://localhost:5000/api/users/signin
-##GET
+## GET
 [GetUserbyId](http://localhost:5000/api/users/getuser/4)
 http://localhost:5000/api/users/getuser/:ID
-##POST
+## POST
 [login](http://localhost:5000/api/users/login)
 http://localhost:5000/api/users/login
 
-#PRODUCTS
-##GET
+# PRODUCTS
+## GET
 [GetProducts](http://localhost:5000/api/products/getproducts)  
 http://localhost:5000/api/products/getproducts
-##POST
+## POST
 [CreateNewProduct](http://localhost:5000/api/products/createproduct)
 http://localhost:5000/api/products/createproduct
-##GET
+## GET
 [GetProductbyId](http://localhost:5000/api/products/4)
 http://localhost:5000/api/products/:ID
-##PATCH
+## PATCH
 [ChangeProduct](http://localhost:5000/api/products/productchange/4)
 http://localhost:5000/api/products/productchange/:ID
 
-#ORDERS
-##GET
+# ORDERS
+## GET
 [GetOrders](http://localhost:5000/api/order/getorder)
 http://localhost:5000/api/order/getorder
-##POST
+## POST
 [CreateNewOrder](http://localhost:5000/api/order/yourorder)
 http://localhost:5000/api/order/yourorder
-##GET
+## GET
 [GetOrderbyId](http://localhost:5000/api/order/4)
 http://localhost:5000/api/order/:ID
-##DELETE
+## DELETE
 [DeleteOrder](http://localhost:5000/api/order/deleteproduct/4)
 http://localhost:5000/api/order/deleteproduct/:ID
