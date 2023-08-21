@@ -22,5 +22,5 @@ app.use("/api/products",productRouter);
 app.use("/api/order",orderRouter);
 
 app.listen(PORT,()=>{
-     console.log(`application is listening on port http://:${PORT}`)
+     console.log(`application is listening on port http://Localhost:${PORT}`)
 })

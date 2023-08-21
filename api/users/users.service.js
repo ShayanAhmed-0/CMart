@@ -18,12 +18,12 @@ module.exports = {
     });
   },
 
-  get_users: (callBack) => {
-    const query = `SELECT * FROM users`;
+  get_user_by_id: (ID,callBack) => {
+    const query = `SELECT * FROM users where ID=?`;
 
     pool.getConnection((err, connection) => {
       if (err) return callBack(err);
-      connection.query(query, null, (err, results) => {
+      connection.query(query,[ID], (err, results) => {
         connection.release();
         if (err) callBack(err);
         else callBack(null, results);
